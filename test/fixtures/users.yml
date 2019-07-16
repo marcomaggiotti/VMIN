@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  weight: MyString
+  height: MyString
+  vitaminC: MyString
+  vitaminD: MyString
+  iron: MyString
+
+two:
+  name: MyString
+  weight: MyString
+  height: MyString
+  vitaminC: MyString
+  vitaminD: MyString
+  iron: MyString

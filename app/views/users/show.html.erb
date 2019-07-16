@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @user.weight %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @user.height %>
+</p>
+
+<p>
+  <strong>Vitaminc:</strong>
+  <%= @user.vitaminC %>
+</p>
+
+<p>
+  <strong>Vitamind:</strong>
+  <%= @user.vitaminD %>
+</p>
+
+<p>
+  <strong>Iron:</strong>
+  <%= @user.iron %>
+</p>
+<strong>Should intake VitaminC:</strong>
+  <%= 10 - Integer(@user.vitaminC) %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

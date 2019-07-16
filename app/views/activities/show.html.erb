@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @activity.date %>
+</p>
+
+<p>
+  <strong>Vitamincused:</strong>
+  <%= @activity.vitaminCUsed %>
+</p>
+
+<p>
+  <strong>Vitamindused:</strong>
+  <%= @activity.vitaminDUsed %>
+</p>
+
+<p>
+  <strong>Ironused:</strong>
+  <%= @activity.ironUsed %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @activity.user %>
+</p>
+
+<%= link_to 'Edit', edit_activity_path(@activity) %> |
+<%= link_to 'Back', activities_path %>
